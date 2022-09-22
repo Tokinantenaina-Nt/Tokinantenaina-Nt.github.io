@@ -1,0 +1,6 @@
+git init # Init un projet git sur son pc
+git add . # Selection des fichier à envoyer
+git commit -m " NEW: Premier commit by Sayna" # Création d'un package avant envoi
+git branch -M main # Création de la branch principal 'Main'
+git remote add origin
+
