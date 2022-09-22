@@ -1,263 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home_page</title>
-    <link rel="stylesheet" href="Assets/CSS/Style.css" />
-    <link rel="stylesheet" href="Assets/CSS/Heros.css" />
-    <link rel="stylesheet" href="Assets/CSS/index.css" />
-    <link rel="stylesheet" href="Assets/Bootstrap/bootstrap.min.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script> -->
-    <script src="Assets/Bootstrap/bootstrap.bundle.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav
-        class="container py-2 text-center d-flex align-items-center justify-content-between"
+    <div class="welcome">
+      <h1>Welcome to my page</h1>
+      <a href="https://github.com/Tokinantenaina-Nt">
+        <p style="color: black; opacity: 1">
+          https://github.com/Tokinantenaina-Nt
+        </p>
+      </a>
+    </div>
+    <div class="portfolio">
+      <!-- ----------- -->
+      <div
+        class="image active"
+        style="background: url(./assets/photo1.jpg) center/cover"
       >
-        <a href="index.html">
-          <div id="logo" class="">
-            <img
-              src="Assets/Logo/logo1.png"
-              alt="logo sayna"
-              style="width: auto; height: auto"
-            />
-            <img
-              src="Assets/Logo/logo2.png"
-              alt="logo crois fois"
-              style="width: auto"
-            />
-            <img
-              src="Assets/Logo/logo3.png"
-              alt="logo marvel"
-              style="width: 150px; height: 40px"
-            />
-          </div>
-        </a>
-
-        <div>
-          <ul class="d-none d-md-inline">
-            <li class="list-inline-item px-2">
-              <a href="index.html" class="fw-bold"> Acceuil</a>
-            </li>
-            <li class="list-inline-item px-3">
-              <a href="Adversaires.html">Adversaires</a>
-            </li>
-            <li class="list-inline-item px-3">
-              <a href="Heros.html">Héros</a>
-            </li>
-            <li class="list-inline-item px-2">
-              <a href="A_propos.html" >A propos</a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- ------------------------ Responsive menu -----------------------  -->
-        <div class="dropdown">
-          <button
-            class="d-md-none boutton_no_bg p-auto m-auto w-auto h-auto border-0"
-            type="button"
-            id="dropdownMenuButton1"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <!-- <i class="fa-solid fa-ellipsis"></i> -->
-            <span class="d-md-none fw-bold fs-6" style="letter-spacing: 0.1em"
-              >...</span
-            >
-          </button>
-          <ul
-            class="dropdown-menu menuDeroul_items"
-            aria-labelledby="dropdownMenuButton1"
-          >
-            <li><a class="dropdown-item" href="index.html" style="background-color:rgba(177, 19, 19, 0.8);">Acceuil</a></li>
-            <li>
-              <a class="dropdown-item" href="Adversaires.html" style="background-color:rgba(177, 19, 19, 0.8);">Adversaires</a>
-            </li>
-            <li><a class="dropdown-item" href="Heros.html" style="background-color:rgba(177, 19, 19, 0.8);">Héros</a></li>
-            <li><a class="dropdown-item" href="A_propos.html" style="background-color:rgba(177, 19, 19, 0.8);">A propos</a></li>
-            <li><a class="dropdown-item" href="Bonus.html" style="background-color:rgba(177, 19, 19, 0.8);">Bonus...</a></li>
-          </ul>
-        </div>
-        <!-- --------------------------------------------------------------- -->
-      </nav>
-    </header>
-    <main>
-      <section class="grandTitre">
-            <h1 class="text-uppercase positionInit0">
-            Spiderman
-            </h1>
-            <h6 class="fade0">L'araignée sympa du quartier !</h6> 
-            <div class="pt-5">
-              <button class="boutton">Voir les Héros</button>
-              <button class="boutton_no_bg">Voir les Adversaires</button> 
-            </div>   
-      </section>
-      <section class="auCinema px-4">
-        <div class="container">
-          <div class="row">
-            <h4 class="text-uppercase positionInit0">Les spiderman au cinéma</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde laudantium alias beatae placeat illum nisi perspiciatis blanditiis sint molestiae.</p>
-          </div>
-          <div class="row d-md-flex justify-content-between">
-            <div class=" col-md col-12">
-              <img src="Assets/Illustration/img3.png" alt="moitié masque de spiderman moitié visage">
-              <p class="pt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, provident quis nostrum dignissimos aliquid, accusantium quam neque sint voluptates velit alias. Doloribus possimus accusamus consectetur architecto in animi labore, quibusdam repellat expedita hic eligendi commodi corporis unde omnis enim ea?
-              </p>
-              <div class="text-center p-4">
-              <button class="boutton" >
-                Voir ses adversaires
-              </button>
-            </div>
-            </div>
-            <div class=" col-md col-12">
-              <img src="Assets/Illustration/img2.png" alt="moitié masque de spiderman moitié visage">
-              <p class="pt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, provident quis nostrum dignissimos aliquid, accusantium quam neque sint voluptates velit alias. Doloribus possimus accusamus consectetur architecto in animi labore, quibusdam repellat expedita hic eligendi commodi corporis unde omnis enim ea?
-              </p>
-              <div class="text-center p-4">
-              <button class="boutton" >
-                Voir ses adversaires
-              </button>
-            </div>
-            </div>
-            <div class="col-md col-12">
-              <img src="Assets/Illustration/img4.png" alt="moitié masque de spiderman moitié visage">
-              <p class="pt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, provident quis nostrum dignissimos aliquid, accusantium quam neque sint voluptates velit alias. Doloribus possimus accusamus consectetur architecto in animi labore, quibusdam repellat expedita hic eligendi commodi corporis unde omnis enim ea?
-              </p>
-              <div class="text-center p-4">
-              <button class="boutton" >
-                Voir ses adversaires
-              </button>
-            </div>
-            </div>
+        <div class="text-container">
+          <div class="text">
+            <h3>Un jour, une licorne</h3>
+            <p>
+              Mon tout premier intégration de site, première exercice tout au
+              début de la formation chez
+              <a href="http://sayna.academy"> Sayna Academy </a>...
+            </p>
+            <a href="./assets/Pages/SAYNA-HTML-CSS-EXERCICE1/index.html"
+              >voir le site ...
+            </a>
           </div>
         </div>
-      </section>
-      <section class="deviensSpiderman py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-            </div>
-            <div class="col-md-6 text-center px-0">
-              <h4 class="text-uppercase">
-                Deviens Spiderman !
-              </h4>
-              <p>Remplir le formulaire ci dessous afin de recevoir ta propre costume.</p>
-            
-              <form action="">
-                <input type="text" name="" id="" placeholder="Nom" class="formAremplir_index">
-                <input type="text" name="" id="" placeholder="Prénom" class="formAremplir_index">
-                <input type="number" name="" id="" placeholder="Taille (cm)" class="formAremplir_index">
-                <input type="number" name="" id="" placeholder="Poids (kg)" class="formAremplir_index">
-                <input type="email" name="" id="" placeholder="Adressse email" class="formAremplir_index"><br> 
-                <button class="boutton_no_bg my-2" style="padding: 10px 20px;">Envoyer</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="inscritToi pt-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 px-0">
-              <h4 class="text-uppercase">
-                Inscrit toi à la newsletter !
-              </h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab quia labore impedit.s</p>
-
-              <form action="">
-                <input type="text" name="" id="" placeholder="Nom Prénom" class="formAremplir_no_bg"> <br>
-                <input type="text" name="" id="" placeholder="Adresse email" class="formAremplir_no_bg"> <br>
-                <input type="checkbox" id="polconf">
-                <label for="polconf"><p>
-                  Je reconnais la <a href="#" style="color: var(--prime_white);"> politique de confidentialité</a> de Sayna X Marvel</p></label>
-                <div class="text-center">
-                  <button class="boutton" style="padding-right: 11em;" >S'inscrire à la newsletter</button>
-                </div>
-              </form>
-            </div>
-            
-
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="py-2 footerMenu">
-          <div class="container p-0">
-              <div class="row">
-                  <ul class="d-flex justify-content-between" style="height: 0%">
-                      <li class="">Mobile app</li>
-                      <li>Politique de confidentialité</li>
-                      <li>Cookies</li>
-                  
-                      <li class="list-inline-item d-none d-md-block">
-                        <a href="index.html"> 
-                            <img src="Assets/Logo/logo1.png" alt="logo sayna" style="width: auto;height: auto;"/>
-                            <img src="Assets/Logo/logo2.png" alt="logo crois fois" style="width: auto;" />
-                            <img src="Assets/Logo/logo3.png" alt="logo marvel" style="width: 100px; height: 40px;"/>
-                        </a>
-                      </li>
-          
-                      <li>Contact</li>
-                      <li>Blog</li>
-                      <li id="langue">
-                          <select name="" id="" style="background-color: var(--prime_red);" >
-                              <option value="">Langue</option>
-                              <option value="">Fraçais</option>
-                              <option value="">English</option>
-                              <option value="">Malgache</option> 
-                          </select>
-                      </li>
-                  </ul>
-              </div>
-              <div class="row">
-                  <li class="list-inline-item d-md-none d-block">
-                      <img src="Assets/Logo/logo1.png" alt="logo sayna" style="width: auto;height: auto;"/>
-                      <img src="Assets/Logo/logo2.png" alt="logo crois fois" style="width: auto;" />
-                      <img src="Assets/Logo/logo3.png" alt="logo marvel" style="width: 100px; height: 40px;"/>
-                  </li>
-              </div>
-          </div>
       </div>
-      <div class="iconEtCopyright">
-          <a href="#"><i class="fab fa-facebook fa-2x" style="color:var(--prime_red)"></i></a>
-          <i class="fab fa-instagram fa-2x" style="color:var(--prime_red)" ></i></a>
-          <a href="#"><i class="fab fa-twitter fa-2x" style="color:var(--prime_red)"></i></a>
-          <a href="#"><i class="fab fa-youtube fa-2x" style="color:var(--prime_red)"></i></a>
+
+      <!-- -------- -->
+      <div
+        class="image"
+        style="background: url(./assets/photo2.png) center/cover"
+      >
+        <div class="text-container">
+          <div class="text">
+            <h3>Promote your New App !</h3>
+            <p>
+              Deuxième site promotionnel, on code une longue page en apprenant
+              la notion de responsivité et l'utilisation de Bootstrap
+            </p>
+            <a href="./assets/Pages/SAYNA-HTML-CSS-EXERCICE3/index.html"
+              >voir le site ...
+            </a>
+          </div>
+        </div>
       </div>
-      <div id="copyright">&copy; SaynaxMarvel. Inc. 2022. We love our users!
-      </br>
-        <em style="opacity:0.5">Ceci est un site intergré comme exercice par l'élève : Tokinantenaina Anthonio, 
-          aucune fonctionnalité ne peut marcher</em>
+      <!-- ---------- -->
+      <div
+        class="image"
+        style="background: url(./assets/photo3.png) center/cover"
+      >
+        <div class="text-container">
+          <div class="text">
+            <h3>NO-WAY-HOME</h3>
+            <p>
+              Quatrième exos dans l'univers de l'araigné sympa ! ... ce site
+              intègre une vidéo youtube, l'audio de font et on commence la
+              manipulation du DOM :O
+            </p>
+            <a
+              href="./assets/Pages/SAYNA-JAVASCRIPT-NOWAYHOME-042022/index.html"
+              >voir le site ...
+            </a>
+          </div>
+        </div>
       </div>
-    <!-- <audio controls autoplay src="Assets/audio1.mp3"></audio> -->
-    
-    </footer>
-    
+      <!-- ---------- -->
+
+      <div
+        class="image"
+        style="background: url(./assets/photo4.jpg) center/cover"
+      >
+        <div class="text-container">
+          <div class="text">
+            <h3>[Events]</h3>
+            <p>
+              Site qui englobe toutes nos compétences, évaluation finale du
+              module html-css, pendant trois jours max, on avait dû batir trois
+              pages qui représentent un évenement spécial "Events" ... pas aisé
+              du tout le respect deadline !
+            </p>
+            <a href="./assets/Pages/SAYNA-HTML-CSS-PROJET-FINAL/index.html"
+              >voir le site ...
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- ---------- -->
+
+      <div
+        class="image"
+        style="background: url(./assets/photo5.png) center/cover"
+      >
+        <div class="text-container">
+          <div class="text">
+            <h3>BATMAN</h3>
+            <p>... Manipuler le DOM : Document Object Model</p>
+            <a href="./assets/Pages/SAYNA-JAVASCRIPT-BATMAN-042022/index.html"
+              >visiter le site ...
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- ---------- -->
+      <!-- ---------- -->
+
+      <div
+        class="image"
+        style="background: url(./assets/TicTacToe.png) center/cover"
+      >
+        <div class="text-container">
+          <div class="text">
+            <h3>Tic Tac Toe</h3>
+            <p>On a aussi coder ce petit jeu</p>
+            <a href="./assets/Pages/SAYNA-JAVASCRIPT-MORPION-042022/index.html"
+              >Jouer...
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- ---------- -->
+      <div
+        class="image"
+        style="background: url(./assets/photo6.jpg) center/cover"
+      >
+        <div class="text-container">
+          <div class="text">
+            <h3>Nous faire parvenir votre avis</h3>
+            <p>
+              Vous pouvez contacter
+              <a href="http://Sayna.io"> Sayna </a>, laissez votre commentaire
+              via ce lien. Le site que j'entretienne en BACKEND
+            </p>
+            <a href="">Commenter Sayna ... </a> <br />
+            <a href="" style="float: right">Me contacter </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script src="index.js"></script>
   </body>
-  <script src="index.js"></script>
 </html>
