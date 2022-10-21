@@ -1,0 +1,16 @@
+
+header {
+    background: url(../Illustrations/Game/Batgame1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grdTitre{
+    padding: 20% 20% 20% 10%;
+}
+
+.quizzNiveau1 li {
+    list-style-type: none;
+    background-color: var(--color-3);
+    width: 300px;
+}
