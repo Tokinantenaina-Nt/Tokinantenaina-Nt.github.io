@@ -1,7 +1,5 @@
-$(".image").click(function () {
+$(".image").mouseenter(function () {
 $(".image").removeClass("active");
 $(this).addClass("active");
-console.log('click!!');
-
 })
 
